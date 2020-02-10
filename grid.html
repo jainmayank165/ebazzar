@@ -1,0 +1,341 @@
+<!doctype html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<!-- jQuery library -->
+
+
+<!-- Latest compiled JavaScript -->
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+ 
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+<style>
+#mySidenav a {
+  position: absolute;
+  left: -100px;
+  transition: 0.3s;
+  padding: 15px;
+  width: 250px;
+  text-decoration: none;
+  font-size: 20px;
+  color: white;
+  border-radius: 0 5px 5px 0;
+}
+
+#mySidenav a:hover {
+  left: 0;
+}
+
+#about {
+  top: 20px;
+  background-color: orange;
+}
+
+#blog {
+  top: 80px;
+  background-color: orange;
+}
+
+#projects {
+  top: 140px;
+  background-color: orange;
+}
+
+#contact {
+  top: 200px;
+  background-color: orange;
+}
+</style>
+</head>
+<body style="background-color:  #e6e6e6"><div class="header container-fluid " width="100%">
+    <div class="sale_div"><p class="header_p" style="font-size: 2vw;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;SALE UP TO 70%.USE CODE "SALE70%" .
+     <b class="btex">SHOP NOW</b>
+    </p>
+  </div>
+    <div class="container-fluid table_div">
+    <table class="header_table">
+      <tr>
+        <td class="header_table">
+        &nbsp;<div class="glyphicon glyphicon-shopping-cart "></div>
+      </td>
+      <td class="header_table" style="font-size: 1.5vw;">
+        Help&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      </td>
+      <td class="header_table" style="font-size: 1.5vw";>
+        Login&nbsp;&nbsp;&nbsp;
+      </td>
+      <td class="header_table" style="font-size: 1.5vw";>
+        Create Account&nbsp;&nbsp;&nbsp;
+      </td>
+     </tr>
+    </table>
+  </div>
+  </div>
+  <div class="div_icon container-fluid ">
+    <div class="header_icon"><b class="b_icon" style="font-size: 5vw;">EBAzzAR</b></div>
+    <div class="search_div">
+      <input type="text" class="form-control search_txt " placeholder="SEARCH">
+      <button class="search_but"><div class="glyphicon glyphicon-search"></div></button>
+    </div>
+  </div>
+  <br>
+  <nav class="navbar navbar-inverse navbar_bg">
+  <div class="container-fluid navbar_bg">
+    <ul class="nav navbar-nav">
+      <li class="active"><a href="#">Home</a></li>
+      <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#"><b class="b_nav">All Groceries</b><span class="caret"></span></a>
+        <ul class="dropdown-menu">
+          <li><a href="#">Dals & Pulses</a></li>
+          <li><a href="#">Almonds</a></li>
+          <li><a href="#">cashews</a></li>
+          <li><a href="#">Dry fruits</a></li>
+          <li><a href="#">Rice and Rice Products</a></li>
+        </ul>
+      </li>
+      <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#"><b class="b_nav">Household</b><span class="caret"></span></a>
+        <ul class="dropdown-menu">
+          <li><a href="#">Cookware</a></li>
+          <li><a href="#">Dust Pans</a></li>
+          <li><a href="#">Scrubers</a></li>
+          <li><a href="#">Kitchenware</a></li>
+          <li><a href="#">Mops</a></li>
+        </ul>
+      </li>
+      <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#" ><b class="b_nav">Personal Care</b><span class="caret"></span></a>
+        <ul class="dropdown-menu">
+          <li><a href="#">Dals & Pulses</a></li>
+          <li><a href="#">Almonds</a></li>
+          <li><a href="#">cashews</a></li>
+          <li><a href="#">Dry fruits</a></li>
+          <li><a href="#">Rice and Rice Products</a></li>
+        </ul>
+      </li>
+      <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#" ><b class="b_nav" >Packaged Foods</b><span class="caret"></span></a>
+        <ul class="dropdown-menu">
+          <li><a href="#">Baby Food</a></li>
+          <li><a href="#">Dessert items</a></li>
+          <li><a href="#">Biscuits</a></li>
+          <li><a href="#">Chocolates & Sweets</a></li>
+          <li><a href="#">Canned Food</a></li>
+        </ul>
+      </li>
+      <li><a href="#"><b class="b_nav">Offers</b></a></li>
+      <li><a href="#"><b class="b_nav">Contact</b></a></li>
+    </ul>
+  </div>
+</nav>
+	<div class="container-fluid">
+    <ul class="breadcrumb" >
+  <li><a href="#" style="color:orange">All Grocery</a></li>
+  <li><a href="#"style="color:orange">Dal and Pulses</a></li>
+    </ul>
+		<div class="row">
+			<div class="col-sm-3">
+      			<ul class="nav nav-pills nav-stacked" data-spy="affix" data-offset-top="20px"  >
+        			<div id="mySidenav" class="sidenav">
+   <li><a href="#" id="about">About</a></li>
+   <li><a href="#" id="blog">Blog</a></li>
+   <li><a href="#" id="projects">Projects</a></li>
+   <li><a href="#" id="contact">Contact</a></li><div>
+
+
+      				</ul>
+    		</div>
+			<div class="col-md-8">
+				<div class="row">
+					<div class="col-sm-3 col-sm-offset-1" style="background-color: white">
+						<center><img src="chana.jpg"><br>
+        <p>Channa </p>
+        <span class="fa fa-star checked"></span>
+        <span class="fa fa-star checked"></span>
+        <span class="fa fa-star checked"></span>
+        <span class="fa fa-star checked"></span>
+        <span class="fa fa-star"></span>
+        <br>
+        <b>rs.160</b>
+        <br>
+        <button class="btn btn-md btn-link">Add To Cart</button></center>
+					</div>
+					<div class="col-sm-3 col-sm-offset-1" style="background-color: white">
+						<center><img src="mixed.jpg"><br>
+        <p>Mixed dal</p>
+        <span class="fa fa-star checked"></span>
+        <span class="fa fa-star checked"></span>
+        <span class="fa fa-star checked"></span>
+        <span class="fa fa-star"></span>
+        <span class="fa fa-star"></span>
+        <br>
+        <b>rs.150</b>
+        <br>
+        <button class="btn btn-md btn-link" >Add To Cart</button></center>
+					</div>
+					<div class="col-sm-3 col-sm-offset-1"style="background-color: white">
+					 <center>	<img src="matar.jpg"><br>
+        <p>matar dal</p>
+        <span class="fa fa-star checked"></span>
+        <span class="fa fa-star checked"></span>
+        <span class="fa fa-star "></span>
+        <span class="fa fa-star"></span>
+        <span class="fa fa-star"></span>
+        <br>
+        <b>rs.140</b>
+        <br>
+        <button class="btn btn-md btn-link">Add To Cart</button></center>
+					</div>
+					
+				</div><br>
+				<div class="row">
+					<div class="col-sm-3 col-sm-offset-1 "style="background-color: white">
+						 <center> <img src="moong.jpg"><br>
+        <p>moong dal</p>
+        <span class="fa fa-star checked"></span>
+        <span class="fa fa-star checked"></span>
+        <span class="fa fa-star checked "></span>
+        <span class="fa fa-star"></span>
+        <span class="fa fa-star"></span>
+        <br>
+        <b>rs.110</b>
+        <br>
+        <button class="btn btn-md btn-link">Add To Cart</button></center>
+					</div>
+					<div class="col-sm-3 col-sm-offset-1 "style="background-color: white">
+						 <center> <img src="toor.jpg"><br>
+        <p>toor dal</p>
+        <span class="fa fa-star checked"></span>
+        <span class="fa fa-star checked"></span>
+        <span class="fa fa-star checked"></span>
+        <span class="fa fa-star checked"></span>
+        <span class="fa fa-star"></span>
+        <br>
+        <b>rs.70</b>
+        <br>
+        <button class="btn btn-md btn-link">Add To Cart</button></center>
+					</div>
+					<div class="col-sm-3 col-sm-offset-1 "style="background-color: white">
+						 <center> <img src="urad.jpg"><br>
+        <p>urad dal</p>
+        <span class="fa fa-star checked"></span>
+        <span class="fa fa-star checked"></span>
+        <span class="fa fa-star checked"></span>
+        <span class="fa fa-star checked"></span>
+        <span class="fa fa-star checked"></span>
+        <br>
+        <b>rs.140</b>
+        <br>
+        <button class="btn btn-md btn-link">Add To Cart</button></center>
+					</div>
+					
+				</div><br>
+				
+        <div class="row">
+          <div class="col-sm-3 col-sm-offset-1"style="background-color: white">
+             <center> <img src="masoor.jpg"><br>
+        <p>masoor dal</p>
+        <span class="fa fa-star checked"></span>
+        <span class="fa fa-star checked"></span>
+        <span class="fa fa-star "></span>
+        <span class="fa fa-star"></span>
+        <span class="fa fa-star"></span>
+        <br>
+        <b>rs.140</b>
+        <br>
+        <button class="btn btn-md btn-link">Add To Cart</button></center>
+          </div>
+          <div class="col-sm-3 col-sm-offset-1"style="background-color: white">
+             <center> <img src="arhar.jpg"><br>
+        <p>arhar dal</p>
+        <span class="fa fa-star checked"></span>
+        <span class="fa fa-star checked"></span>
+        <span class="fa fa-star "></span>
+        <span class="fa fa-star"></span>
+        <span class="fa fa-star"></span>
+        <br>
+        <b>rs.140</b>
+        <br>
+        <button class="btn btn-md btn-link">Add To Cart</button></center>
+          </div>
+          <div class="col-sm-3 col-sm-offset-1"style="background-color: white">
+            <center> <img src="matar.jpg"><br>
+        <p>matar dal</p>
+        <span class="fa fa-star checked"></span>
+        <span class="fa fa-star checked"></span>
+        <span class="fa fa-star "></span>
+        <span class="fa fa-star"></span>
+        <span class="fa fa-star"></span>
+        <br>
+        <b>rs.140</b>
+        <br>
+        <button class="btn btn-md btn-link">Add To Cart</button></center>
+          </div>
+          </div>
+        </div>
+			</div>
+		
+	</ul></nav></div></div>
+  <center> <ul class="pagination">
+  <li><a href="#" style="color:orange">1</a></li>
+  <li><a href="#" style="color:orange">2</a></li>
+</center>
+</ul>
+<div style="background-color:#737373;">
+<br>
+<br>
+
+
+    <div style="background-color:#737373;">
+<br>
+<br>
+
+<div class="footer">
+    <div class="container" style="background-color:#262626;color:orange;">
+      <div class="w3_footer_grids">
+        <div class="col-md-3 w3_footer_grid">
+          <h3>Contact</h3>
+          <ul class="address" type="none" style="background-color:#262626;color:orange;">
+            <li  style="color:#e6e6e6;"><i class="fa fa-arrow-right" aria-hidden="true"></i></i>&nbsp;&nbsp;&nbsp;Chitkara University <span>Rajpura.</span></li>
+            <li><a href="mailto:mayank1030cse18@chitkara.eduu.inco.m" style="color:#e6e6e6;"><i class="fa fa-arrow-right" aria-hidden="true"></i>&nbsp;&nbsp;&nbsp;mayank1030@chitkra.edu.in</a></li>
+            <li><a href="mailto:anmol1028cse18@chitkara.eduu.inco.m" style="color:#e6e6e6;"><i class="fa fa-arrow-right" aria-hidden="true"></i>&nbsp;&nbsp;&nbsp;anmol1028@chitkara.edu.in</a></li>
+            <li  style="color:#e6e6e6;"><i class="fa fa-arrow-right" aria-hidden="true"></i>&nbsp;&nbsp;&nbsp;+9729281526</li>
+          </ul>
+        </div>
+        <div class="col-md-3 w3_footer_grid">
+          <h3>Information</h3>
+          <ul class="info"type="none"> 
+            <li><i class="fa fa-arrow-right" aria-hidden="true"></i>&nbsp;&nbsp;&nbsp;<a href="about.html" style="color:#e6e6e6;">About Us</a></li>
+            <li><i class="fa fa-arrow-right" aria-hidden="true"></i>&nbsp;&nbsp;&nbsp;<a href="contact.html" style="color:#e6e6e6;">Contact Us</a></li>
+            <li><i class="fa fa-arrow-right" aria-hidden="true"></i>&nbsp;&nbsp;&nbsp;<a href="short-codes.html" style="color:#e6e6e6;">Short Codes</a></li>
+            <li><i class="fa fa-arrow-right" aria-hidden="true"></i>&nbsp;&nbsp;&nbsp;<a href="faq.html" style="color:#e6e6e6;">FAQ's</a></li>
+            <li><i class="fa fa-arrow-right" aria-hidden="true"></i>&nbsp;&nbsp;&nbsp;<a href="products.html" style="color:#e6e6e6;">Special Products</a></li>
+          </ul>
+        </div>
+        <div class="col-md-3 w3_footer_grid">
+          <h3>Category</h3>
+          <ul class="info"type="none"> 
+            <li><i class="fa fa-arrow-right" aria-hidden="true"></i>&nbsp;&nbsp;&nbsp;<a href="groceries.html" style="color:#e6e6e6;">Groceries</a></li>
+            <li><i class="fa fa-arrow-right" aria-hidden="true"></i>&nbsp;&nbsp;&nbsp;<a href="household.html" style="color:#e6e6e6;">Household</a></li>
+            <li><i class="fa fa-arrow-right" aria-hidden="true"></i>&nbsp;&nbsp;&nbsp;<a href="personalcare.html" style="color:#e6e6e6;">Personal Care</a></li>
+            <li><i class="fa fa-arrow-right" aria-hidden="true"></i>&nbsp;&nbsp;&nbsp;<a href="packagedfoods.html" style="color:#e6e6e6;">Packaged Foods</a></li>
+            <li><i class="fa fa-arrow-right" aria-hidden="true"></i>&nbsp;&nbsp;&nbsp;<a href="beverages.html"style="color:#e6e6e6;">Beverages</a></li>
+          </ul>
+        </div>
+        <div class="col-md-3 w3_footer_grid">
+          <h3>Profile</h3>
+          <ul class="info"type="none"> 
+            <li><i class="fa fa-arrow-right" aria-hidden="true"></i>&nbsp;&nbsp;&nbsp;<a href="products.html"style="color:#e6e6e6;">Store</a></li>
+            <li><i class="fa fa-arrow-right" aria-hidden="true"></i>&nbsp;&nbsp;&nbsp;<a href="checkout.html"style="color:#e6e6e6">My Cart</a></li>
+            <li><i class="fa fa-arrow-right" aria-hidden="true"></i>&nbsp;&nbsp;&nbsp;<a href="login.html" style="color:#e6e6e6;">Login</a></li>
+            <li><i class="fa fa-arrow-right" aria-hidden="true"></i>&nbsp;&nbsp;&nbsp;<a href="registered.html"style="color:#e6e6e6;">Create Account</a></li>
+          </ul>
+        </div>
+       
+   
+  
+</body>
